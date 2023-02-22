@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Do you Luve Me?</title>
+</head>
+<body>
+<div id="main">
+
+
+
+
+	<div id="button_group">
+
+    <picture>
+    	<img src="https://media.tenor.com/WUkunUptMdUAAAAj/pizza-love.gif">
+    </picture>
+      <button id="sim" onclick="sim()">sim</button>
+      <button id="nao" onmouseenter="moveHover()" onclick="moveHover()">nao</button>
+	</div>
+
+	<h1>Voce me ama?</h1>
+    
+</div>	
+
+
+
+<style type="text/css">
+
+	body{
+       background-color: rgb(230,230,230);
+
+	}
+	h1{ 
+
+      font-size: 64px;
+      position: absolute;
+
+	}
+
+	#main{
+		width: 100%;
+		height: 100vh;
+		display: flex;
+	    justify-content: center;
+
+	}
+   #button_group{
+     
+     position: relative;
+     cursor: pointer;
+     margin-top: 250px;
+   
+     padding: 10px 30px
+
+
+   }
+
+   picture{
+		display: flex;
+	    justify-content: center;
+	    size: 128px;
+	    margin-bottom: 25px;
+   }
+
+</style>
+
+
+
+
+		<script type="text/javascript">
+
+        
+		const target = document.getElementById('nao')
+        //target.addEventListener("mouseover", moveHover)
+
+
+        function moveHover() {
+
+            
+        	const fuck=Math.floor(Math.random()*250)+1;
+        	const bitch=Math.floor(Math.random()*250)+1;
+
+
+            target.style.position = "relative"
+        	target.style.left = fuck+"px";
+            target.style.top  = bitch+"px";
+
+            //alert('fuck u')
+        }
+
+        function sim(){
+           window.open("cu2.html")
+
+        }
+
+
+	   </script>
+
+
+
+
+
+
+
+
+</body>
+
+<footer>made by ciringa_men (if you love thierrir's pennis)</footer>
+</html>
